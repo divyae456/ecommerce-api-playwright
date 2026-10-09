@@ -1,0 +1,28 @@
+{
+  "name": "ecommerce-api-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:smoke": "playwright test --grep @smoke",
+    "test:all": "playwright test",
+    "report": "playwright show-report",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "dotenv": "^18.0.6"
+  }
+}

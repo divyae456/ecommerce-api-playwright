@@ -1,0 +1,13 @@
+
+export const productSchema = {
+  type: 'object',
+  properties: {
+    id: { type: 'integer' },
+    title: { type: 'string' },
+    price: { type: 'number' },
+    description: { type: 'string' },
+    category: { type: 'string' },
+  },
+  required: ['id', 'title', 'price', 'description', 'category'],
+  additionalProperties: true,
+};
